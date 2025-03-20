@@ -1,0 +1,29 @@
+[
+  {
+    "id": "example",
+    "name": "To The Stars!",
+    "logoUrl": "https://www.tothestarsrating.com/rocketRounded.png",
+    "color": "red",
+    "googleReviewUrl": "https://g.page/r/CWQi0fOKvKa9EB0/review",
+    "googleFormsUrl": "https://forms.gle/7aDnatWjWhMZCFAT7",
+    "font": ""
+  },
+  {
+    "id": "ChubbysRiverton",
+    "name": "Chubby's Neighborhood Cafe",
+    "logoUrl": "https://static.wixstatic.com/media/70f196_bf6736c31b0b493aac33e59a41a16ca6.png/v1/fit/w_2500,h_1330,al_c/70f196_bf6736c31b0b493aac33e59a41a16ca6.png",
+    "color": "brown",
+    "googleReviewUrl": "https://search.google.com/local/writereview?placeid=ChIJb2i0PN6HUocRH820GaRHtyI",
+    "googleFormsUrl": "https://docs.google.com/forms/d/1Ku9AFoxiMbi-kCGQ3kT2yTBeKwSnxkJxJMOxScvab_E/edit?pli=1",
+    "font": ""
+  },
+  {
+    "id": "TRSJ",
+    "name": "Texas Roadhouse",
+    "logoUrl": "https://download.logo.wine/logo/Texas_Roadhouse/Texas_Roadhouse-Logo.wine.png",
+    "color": "brown",
+    "googleReviewUrl": "https://search.google.com/local/writereview?placeid=ChIJn4Awa7OFUocR2gbk29y0eoM",
+    "googleFormsUrl": "https://docs.google.com/forms/d/1oqrlDlSD39SwuAfmKqOHJhpzGOgzwvEip_XIlXjvBBA/viewform?edit_requested=true",
+    "font": ""
+  }
+]

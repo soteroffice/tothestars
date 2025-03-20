@@ -1,0 +1,75 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  background-color: black;
+}
+h1 {
+  font-size: 3rem; /* 48px */
+  line-height: 1;
+  display: block;
+}
+h2 {
+  font-size: 2.25rem; /* 36px */
+  line-height: 2.5rem; /* 40px */
+  display: block;
+}
+h3 {
+  font-size: 1.875rem; /* 30px */
+  line-height: 2.25rem; /* 36px */
+  display: block;
+}
+h4 {
+  font-size: 1.5rem; /* 24px */
+  line-height: 2rem; /* 32px */
+  display: block;
+}
+h5 {
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+  display: block;
+}
+h6 {
+  font-size: 1.125rem; /* 18px */
+  line-height: 1.75rem; /* 28px */
+  display: block;
+}
+h7 {
+  font-size: 0.875rem; /* 14px */
+  line-height: 1.25rem; /* 20px */
+  display: block;
+}
+h8 {
+  font-size: 0.75rem; /* 12px */
+  line-height: 1rem; /* 16px */
+  display: block;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+textarea:focus::placeholder {
+  color: transparent;
+}
+
+input[type="number"]::-webkit-inner-spin-button {
+  cursor: pointer;
+  display: block;
+  width: 14px;
+  text-align: center;
+  position: relative;
+  opacity: 1;
+}
+input[type="number"]:hover::-webkit-inner-spin-button {
+  padding: 4px;
+}
+textarea,
+input {
+  outline: none;
+}
+
+.textShadow {
+  text-shadow: #000 1px 1px 10px;
+}
