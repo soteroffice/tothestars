@@ -17,10 +17,10 @@
     "@stripe/react-stripe-js": "^1.16.4",
     "@stripe/stripe-js": "^1.46.0",
     "axios": "^1.3.3",
-    "cors": "^2.8.5",
+    "cors": "^2.8.5",  // Added cors
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.5",
-    "file-loader": "^6.2.0",
+    "file-loader": "^6.2.0",  // Added file-loader
     "gsap": "^3.11.4",
     "howler": "^2.2.3",
     "lodash": "^4.17.21",
@@ -28,10 +28,10 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.7.1",  // Added react-icons
+    "react-reveal": "^2.5.0",  // Added react-reveal
     "react-indiana-drag-scroll": "^3.0.3-alpha",
     "react-lottie": "^1.2.3",
-    "react-reveal": "^2.5.0",
-    "stripe": "^11.10.0",
+    "stripe": "^11.10.0",  // Added stripe
     "url-loader": "^4.1.1"
   },
   "devDependencies": {
