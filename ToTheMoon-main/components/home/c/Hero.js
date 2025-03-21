@@ -5,7 +5,7 @@ import { Toolbar } from "@mui/material";
 import ClickAwayListener from "@mui/material/ClickAwayListener";
 import { styled } from "@mui/material/styles";
 import Tooltip, { tooltipClasses } from "@mui/material/Tooltip";
-import { Fade } from "react-reveal";
+// import { Fade } from "react-reveal";
 import { IoChevronForward } from "react-icons/io5";
 import Lottie from "react-lottie";
 import reviewReviews from "@/public/reviewReviews";
@@ -58,7 +58,7 @@ function Hero(props) {
         <Starscape width={width} height={height} />
       </div>
       <div className="z-10  flex flex-col items-center mt-5 md:mt-32 w-full h-full p-2">
-        <Fade top>
+        {/* <Fade top>
           <h1 className="text-center font-semibold">To The Stars Ratings</h1>
           <h3 className=" text-center mt-3 font-light">Reach The Stars.</h3>
         </Fade>
@@ -70,7 +70,7 @@ function Hero(props) {
                 // else setPlayMusic(true);
                 const element = document.getElementById("LearnMore");
                 if (element) {
-                  // 👇 Will scroll smoothly to the top of the next section
+                  // Will scroll smoothly to the top of the next section
                   element.scrollIntoView({ behavior: "smooth" });
                 }
               }}
@@ -86,7 +86,7 @@ function Hero(props) {
               onClick={() => {
                 const element = document.getElementById("GetStarted");
                 if (element) {
-                  // 👇 Will scroll smoothly to the top of the next section
+                  // Will scroll smoothly to the top of the next section
                   element.scrollIntoView({ behavior: "smooth" });
                 }
               }}
@@ -121,7 +121,7 @@ function Hero(props) {
             height={300}
             width={300}
           />
-        </Fade>
+        </Fade> */}
         {/* <ClickAwayListener onClickAway={handleTooltipClose}>
           <div>
             <BgToolTip
@@ -256,43 +256,4 @@ const Starscape = ({
             scale: scaleMapperRef.current(
               Math.min(DISTANCE, vminRef.current * proximityRatio)
             ),
-            alpha: alphaMapperRef.current(
-              Math.min(DISTANCE, vminRef.current * proximityRatio)
-            ),
-          });
-        });
-      };
-      const EXIT = () => {
-        gsap.to(starsRef.current, {
-          scale: 1,
-          alpha: defaultAlpha,
-        });
-      };
-      LOAD();
-      gsap.ticker.fps(24);
-      gsap.ticker.add(RENDER);
-
-      // Set up event handling
-      canvas.addEventListener("resize", LOAD);
-      document.addEventListener("mousemove", UPDATE);
-      document.addEventListener("onTouchMove", UPDATE);
-
-      canvas.addEventListener("mouseleave", EXIT);
-      return () => {
-        canvas.removeEventListener("resize", LOAD);
-        document.removeEventListener("mousemove", UPDATE);
-        document.removeEventListener("onTouchMove", UPDATE);
-
-        canvas.removeEventListener("mouseleave", EXIT);
-        gsap.ticker.remove(RENDER);
-      };
-    }
-  }, [height, width]);
-
-  return (
-    <canvas
-      className="absolute h-full w-full inset-0 "
-      ref={canvasRef}
-    ></canvas>
-  );
-};
+            alpha: alpha
