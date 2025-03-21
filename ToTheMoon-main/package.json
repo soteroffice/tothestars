@@ -30,7 +30,7 @@
     "react-icons": "^4.7.1",
     "react-indiana-drag-scroll": "^3.0.3-alpha",
     "react-lottie": "^1.2.3",
-    "react-reveal": "^2.5.0",  // Update to a version that supports react 18.x, if available
+    "react-reveal": "^2.5.0",
     "stripe": "^11.10.0",
     "url-loader": "^4.1.1"
   },
