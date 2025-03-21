@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { IoChevronForward } from "react-icons/io5";
-import { Fade } from "react-reveal";
+// import { Fade } from "react-reveal";
 // import { QRCode } from "../../../../";
 import Lottie from "react-lottie";
 import reviews from "@/public/lottie/reviews";
@@ -82,14 +82,14 @@ function HowItWorks(props) {
           {slides.map((slide, index) => {
             return (
               <div key={index} className="absolute">
-                <Fade
+                {/* <Fade
                   when={index == activeSlide}
                   right={index == activeSlide ? true : false}
                   left={index == activeSlide ? false : true}
                   unmountOnExit
                   mountOnEnter
                   collapse
-                >
+                > */}
                   <div className="rounded-2xl overflow-hidden  w-96 h-[31rem]">
                     <h6 className="font-medium text-center my-3">
                       {slides.length == index + 1
@@ -115,7 +115,7 @@ function HowItWorks(props) {
                       {slide.description}
                     </p>
                   </div>
-                </Fade>
+                {/* </Fade> */}
               </div>
             );
           })}
