@@ -1,18 +1,18 @@
 {
   "builds": [
     {
-      "src": "package.json",
+      "src": "ToTheMoon-main/package.json",
       "use": "@vercel/node"
     },
     {
-      "src": "public/**/*",
+      "src": "ToTheMoon-main/public/**/*",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "$1"
+      "dest": "ToTheMoon-main/$1"
     }
   ]
 }
