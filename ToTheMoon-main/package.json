@@ -34,7 +34,6 @@
     "react-reveal": "^1.2.2",
     "stripe": "^11.10.0",
     "url-loader": "^4.1.1"
-    "next": "^13.1.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
